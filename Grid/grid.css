@@ -1,0 +1,28 @@
+.frist {
+    align-self: auto;
+    display: grid;
+    background-color:white;
+    grid-template-columns: repeat(auto-fill,minmax(325px,1fr));
+    grid-template-rows:  repeat(auto-fill,250px) ;
+    gap: 20px;
+}
+
+.box {
+    text-align: center;
+    background-color: gray;
+    padding: 5px;
+    border: solid black 1px;
+    box-shadow: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+.span-row {
+    grid-row-start: span 2;
+}
+
+.span-column {
+    grid-column: span 2;
+}
