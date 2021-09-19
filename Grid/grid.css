@@ -2,7 +2,8 @@
     align-self: auto;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(325px,1fr));
-    grid-template-rows:  repeat(auto-fill,250px) ;
+    grid-template-rows: repeat(auto-fill,250px) ;
+    grid-auto-flow: row;
     gap: 3rem   ;
 }
 
@@ -24,6 +25,7 @@ body {
     background-color: #262626;
 }
 img {
+    position: relative;;
     width: 100%;
     height: 100%;   
 }
